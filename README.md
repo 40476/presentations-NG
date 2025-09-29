@@ -1,6 +1,7 @@
-# Minetest Presentations
-A mod for minetest that allows displaying images downloadable at runtime.  
-It servers two main purpuses:  
+# Minetest Presentations NG
+A continuation of the original with various improvements of my own
+
+It servers two main purposes:
 1. Displaying images ingame, for the use in virtual exhibitions/galleries or simply for decoration.  
 2. Holding virtual presentations.  
 
@@ -61,6 +62,7 @@ To install it copy the downloaded folder (see releases) to the /mods/ folder of 
 To allow downloading images at runtime the mod needs to get added to the *trusted_mods* in the minetest.conf.  
 Add this line to your minetest.conf:  
 `"secure.trusted_mods = presentations"`  
+(You may also need http mods as well)
 
 
 Once ingame you will need the "presentations" privilage to edit/add displays.  
